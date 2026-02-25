@@ -18,11 +18,13 @@ class Back {
         this.enabled = false
     }
     load() {
-        commands.addCommand('back', 'Go back to your previous location before teleporting', 'Teleportation', async ({ msg }) => {
-            if (!this.enabled) return msg.sender.error('Back is disabled!')
-            let success = await this.back(msg.sender)
-            if (success) msg.sender.success('Teleported back to your last location!')
-        }, false, null)
+        try {
+            commands.addCommand('back', 'Go back to your previous location before teleporting', 'Teleportation', async ({ msg }) => {
+                if (!this.enabled) return msg.sender.error('Back is disabled!')
+                let success = await this.back(msg.sender)
+                if (success) msg.sender.success('Teleported back to your last location!')
+            }, false, null)
+        } catch { }
     }
     back(player) {
         return new Promise(async (resolve) => {
