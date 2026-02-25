@@ -7,6 +7,7 @@ import { commands } from './Commands'
 import { Warps } from './Warps'
 import { PluginStorage } from './PluginStorage'
 import PluginToggler from './PluginToggler'
+import Economy from './Economy'
 
 class Back {
     constructor() {
@@ -90,7 +91,8 @@ let plugins = [
     commands,
     new Chat,
     new Warps,
-    new Back
+    new Back,
+    new Economy
 ]
 
 if (false) plugins.push(new GuhDestroyer)
