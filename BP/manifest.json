@@ -1,0 +1,74 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"fruitkitty"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.54"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "EssentialsV",
+		"description": "Essentials MCBE port. Created and maintained by fruitkitty",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "91580f12-9d5f-4b20-8d8b-03fadada8c72",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "97856163-e0ba-4c6b-a8d6-9d3ec3f77094",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "34ac428e-c8a4-42bf-aad8-addb2ead0912",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "29ed374d-d816-42d7-9150-e8d467c1e002",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "beta"
+		}
+	],
+	"capabilities": [
+		"script_eval"
+	]
+}

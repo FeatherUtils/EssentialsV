@@ -1,0 +1,22 @@
+{
+  "name": "essentialsv",
+  "version": "1.0.0",
+  "description": "stuff",
+  "main": "index.js",
+  "scripts": {
+    "watch": "concurrently \"npm run watch:bp\" \"npm run watch:rp\"",
+    "watch:bp": "copy-and-watch --watch \"BP/**/*\" \"../development_behavior_packs/BP\"",
+    "watch:rp": "copy-and-watch --watch \"RP/**/*\" \"../development_resource_packs/RP\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.27.3",
+    "fs-extra": "^11.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "copy-and-watch": "^0.1.8"
+  }
+}

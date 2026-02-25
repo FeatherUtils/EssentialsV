@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"fruitkitty"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.54"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "EssentialsV",
+		"description": "Essentials MCBE port. Created and maintained by fruitkitty",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "29ed374d-d816-42d7-9150-e8d467c1e002",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "3cdb6873-8137-4a0d-acc9-0138c3e5774e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
