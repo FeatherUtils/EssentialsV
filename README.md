@@ -7,3 +7,5 @@ Download the bedrock dedicated server and cd into it then run
 Then run `cd EssentialsV` and then run `npm install`
 
 Once you did that run `npm run watch` and it'll copy all the files from BP/ and RP/ to development_behavior_packs and development_resource_packs
+
+(Make sure there's a world that points to the UUID and has beta apis on)
